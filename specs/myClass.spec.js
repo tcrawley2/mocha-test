@@ -15,4 +15,7 @@ describe ("Test suite", function () {
   it("Test the divide method", function () {
     expect(myObj.divide (1, 2)).to.be.equal(.5);
   });
+  it("Test the square method", function () {
+    expect(myObj.square(5)).to.be.equal(25);
+  });
 });

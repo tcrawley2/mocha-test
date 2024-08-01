@@ -28,6 +28,11 @@ class MyClass {
       return result;
     }
   }
+
+  square (num) {
+    const result = num * num;
+    return result;
+  }
 }
 
 export default MyClass;
